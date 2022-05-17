@@ -1,29 +1,33 @@
-# Hackaton-3-color-fliper
+# Hackaton-1-dialog-design-system
+**Primer reto de la Hackaton.**</br>
+He escogido Vue porque, ademas de tener mas practica con el, me gustaba el hecho de poder abstraer el componente, y poder mutarlo en el futuro simplemente editando datos.
+# User stories
+- [x] Task 1 → Se ve el layout por pantalla
+- [x] Task 2 → Al pulsar el botón se genera automáticamente un nuevo color, se cambia el fondo y se escribe por pantalla.
+- [x] Task 3 → Clicar encima del hex color se copia el portapapeles (una función bastante útil en muchas apps).
 
-This template should help get you started developing with Vue 3 in Vite.
+## Enlaces de interes:
+- [Demo](https://hackaton-3-color-fliper.vercel.app/)
+- [Figma](https://www.figma.com/file/ETSvclvkfXzUIJjkufXRJ9/front_explorer?node-id=286%3A16)
 
-## Recommended IDE Setup
+## 📂 Estructura de carpetas
+- 📂 node_modules
+- 📂 public
+  - favicon.ico
+- 📂 src
+  - 📜 App.vue
+  - 📜 main.js
+- 📜 .gitignore
+- 📜 index.html
+- 📜 package-lock.json
+- 📜 package.json
+- 📜 Readme.md
+- 📜 vite.config.js
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## 📝 Tareas
+- [x] Crear un main y dartle el 100vw y 100vh de tamaño
+- [x] Crear una variable color, tanto para texto como para poner el color en el main
+- [x] Crear un estilo dinamico conectado con el color
+- [x] Generar un hex dinamico
+  - [x] Encontrar una forma de hacer un hex dinamico
+- [x] Encontrar la manera de copiar un texto en Vue ( creando un textarea temporal )
