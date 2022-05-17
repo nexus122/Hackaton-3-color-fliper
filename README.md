@@ -1,6 +1,6 @@
 # Hackaton-3-color-fliper
-**Primer reto de la Hackaton.**</br>
-He escogido Vue porque, ademas de tener mas practica con el, me gustaba el hecho de poder abstraer el componente, y poder mutarlo en el futuro simplemente editando datos.
+**Tercer reto de la Hackaton.**</br>
+He escogido vue para una mejor organizacion de funciones a la hora de generar el color y poder copiarlo.
 # User stories
 - [x] Task 1 → Se ve el layout por pantalla
 - [x] Task 2 → Al pulsar el botón se genera automáticamente un nuevo color, se cambia el fondo y se escribe por pantalla.
