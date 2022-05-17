@@ -1,4 +1,4 @@
-# Hackaton-1-dialog-design-system
+# Hackaton-3-color-fliper
 **Primer reto de la Hackaton.**</br>
 He escogido Vue porque, ademas de tener mas practica con el, me gustaba el hecho de poder abstraer el componente, y poder mutarlo en el futuro simplemente editando datos.
 # User stories
